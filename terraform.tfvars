@@ -13,7 +13,7 @@ user_id=""
 # general oci parameters
 compartment_id = "ocid1.compartment.oc1..aaaaaaaahht7wjaxbu3oqsnqo2u24ucwui5db6r75z3r6f66eulu6htzfkna"
 
-label_prefix = "kubterra"
+label_prefix = "OkeYKB"
 
 # ssh keys
 ssh_private_key_path = "modules/ssh_key.key"
@@ -39,9 +39,9 @@ newbits = {
 
 vcn_cidr = "10.0.0.0/16"
 
-vcn_dns_label = "kubterra"
+vcn_dns_label = "OKETF"
 
-vcn_name = "kubterra"
+vcn_name = "OkeTfVcn"
 
 
 # bastion
@@ -136,11 +136,11 @@ allow_node_port_access = false
 
 allow_worker_ssh_access = false
 
-cluster_name = "kubterra"
+cluster_name = "OkeTerraformGit"
 
 check_node_active = "none"
 
-dashboard_enabled = false
+dashboard_enabled = true
 
 kubernetes_version = "v1.18.10"
 
