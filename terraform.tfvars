@@ -145,7 +145,7 @@ dashboard_enabled = true
 kubernetes_version = "v1.18.10"
 
 node_pools = {
-  np1 = {shape="VM.Standard2.1",node_pool_size=1}
+  np1 = {shape="VM.Standard2.1",node_pool_size=2}
 }
 
 node_pools_to_drain = [ "np1" ] 
