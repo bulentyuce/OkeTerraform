@@ -13,7 +13,7 @@ user_id="ocid1.user.oc1..aaaaaaaatpvhth753r5ien2yrcju6biludch3bkgz3knuvo7nkfzk5f
 # general oci parameters
 compartment_id = "ocid1.compartment.oc1..aaaaaaaahht7wjaxbu3oqsnqo2u24ucwui5db6r75z3r6f66eulu6htzfkna"
 
-label_prefix = "OkeDemo"
+label_prefix = "OKE"
 
 # ssh keys
 ssh_private_key_path = "modules/ssh_key.key"
@@ -145,7 +145,7 @@ dashboard_enabled = true
 kubernetes_version = "v1.20.8"
 
 node_pools = {
-  np1 = {shape="VM.Standard2.1",node_pool_size=4}
+  np1 = {shape="VM.Standard2.1",node_pool_size=3}
 }
 
 node_pools_to_drain = [ "np1" ] 
@@ -166,7 +166,7 @@ pods_cidr = "10.244.0.0/16"
 
 services_cidr = "10.96.0.0/16"
 
-worker_mode = "public"
+worker_mode = "private"
 
 # oke load balancers
 lb_subnet_type = "public"
