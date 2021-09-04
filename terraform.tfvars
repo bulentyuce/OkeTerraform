@@ -1,25 +1,19 @@
 # Identity and access parameters
 
-##api_fingerprint = "02:b2:8b:04:a3:be:e5:9c:1f:a0:e9:35:a5:08:80:85"
-###04092021 api_fingerprint=""
 api_fingerprint="02:b2:8b:04:a3:be:e5:9c:1f:a0:e9:35:a5:08:80:85"
 
-##api_private_key_path = "modules/apikey_by.pem"
-###04092021 api_private_key_path=""
 api_private_key_path="modules/apikey_by.pem"
 
-region = "me-dubai-1"
+region = "eu-amsterdam-1"
 
 tenancy_id = "ocid1.tenancy.oc1..aaaaaaaa6h7beozm3dyptslylq6ql2bxsly3vr4vbg62y3jxotr2wur2dbxq"
 
-## user_id = "ocid1.user.oc1..aaaaaaaazli5anrg56xiirjcn6swtvhjsmezyro52z4xushhkh7x6lstkzna" 
-###04092021 user_id=""
 user_id="ocid1.user.oc1..aaaaaaaatpvhth753r5ien2yrcju6biludch3bkgz3knuvo7nkfzk5ftgeea"
 
 # general oci parameters
 compartment_id = "ocid1.compartment.oc1..aaaaaaaahht7wjaxbu3oqsnqo2u24ucwui5db6r75z3r6f66eulu6htzfkna"
 
-label_prefix = "OkeYKB"
+label_prefix = "OkeDemo"
 
 # ssh keys
 ssh_private_key_path = "modules/ssh_key.key"
@@ -45,9 +39,9 @@ newbits = {
 
 vcn_cidr = "10.0.0.0/16"
 
-vcn_dns_label = "OKETF"
+vcn_dns_label = "okedemo"
 
-vcn_name = "OkeTfVcn"
+vcn_name = "oke-vcn-demo"
 
 
 # bastion
@@ -142,16 +136,16 @@ allow_node_port_access = false
 
 allow_worker_ssh_access = false
 
-cluster_name = "OkeTerraformGit"
+cluster_name = "TerraformDemoCluster"
 
 check_node_active = "none"
 
 dashboard_enabled = true
 
-kubernetes_version = "v1.18.10"
+kubernetes_version = "v1.20.8"
 
 node_pools = {
-  np1 = {shape="VM.Standard2.1",node_pool_size=2}
+  np1 = {shape="VM.Standard2.1",node_pool_size=3}
 }
 
 node_pools_to_drain = [ "np1" ] 
@@ -162,7 +156,7 @@ nodepool_upgrade_method = "out_of_place"
 
 node_pool_name_prefix = "np"
 
-node_pool_image_id = "ocid1.image.oc1.me-dubai-1.aaaaaaaa2mkz4tjbo6rtyxvhfakkvvwg56mhqlu42xlakq23xwgotdmrmvwa"
+node_pool_image_id = "ocid1.image.oc1.eu-amsterdam-1.aaaaaaaats2hu4w6g5df6liez32p6w6rcgmpopaew34rsi4uh46hwit7muzq"
 
 node_pool_os = "Oracle Linux"
 
@@ -208,7 +202,7 @@ vpa = {
 # kms
 use_encryption = false
 
-existing_key_id = "ocid1.vault.oc1.me-dubai-1.drqefdsdaaaro.abshqljrp3yacdj7tvwuucctol3i4w57s43p2wgnssz6fqcbd7ey6ccy7kcq"
+existing_key_id = "ocid1.vault.oc1.eu-amsterdam-1.dbqthhedaafom.abqw2ljr25c2v6i4vnlt2ier7lvymjbqjlce4gag52ktkv22yntjkvubhf3q"
 
 # service account
 create_service_account = true
