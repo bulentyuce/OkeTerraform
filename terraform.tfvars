@@ -136,7 +136,7 @@ allow_node_port_access = false
 
 allow_worker_ssh_access = false
 
-cluster_name = "TerraformDemoCluster"
+cluster_name = "OKECL"
 
 check_node_active = "none"
 
@@ -145,7 +145,7 @@ dashboard_enabled = true
 kubernetes_version = "v1.20.8"
 
 node_pools = {
-  np1 = {shape="VM.Standard2.1",node_pool_size=3}
+  np1 = {shape="VM.Standard2.1",node_pool_size=4}
 }
 
 node_pools_to_drain = [ "np1" ] 
