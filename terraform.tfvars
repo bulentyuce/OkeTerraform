@@ -136,7 +136,7 @@ allow_node_port_access = false
 
 allow_worker_ssh_access = false
 
-cluster_name = "OKECL"
+cluster_name = "DemoCluster"
 
 check_node_active = "none"
 
