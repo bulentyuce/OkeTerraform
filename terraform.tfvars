@@ -4,7 +4,7 @@ api_fingerprint="02:b2:8b:04:a3:be:e5:9c:1f:a0:e9:35:a5:08:80:85"
 
 api_private_key_path="modules/apikey_by.pem"
 
-region = "eu-amsterdam-1"
+region = "eu-frankfurt-1"
 
 tenancy_id = "ocid1.tenancy.oc1..aaaaaaaa6h7beozm3dyptslylq6ql2bxsly3vr4vbg62y3jxotr2wur2dbxq"
 
@@ -156,7 +156,7 @@ nodepool_upgrade_method = "out_of_place"
 
 node_pool_name_prefix = "np"
 
-node_pool_image_id = "ocid1.image.oc1.eu-amsterdam-1.aaaaaaaats2hu4w6g5df6liez32p6w6rcgmpopaew34rsi4uh46hwit7muzq"
+node_pool_image_id = "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaacwqra6qcg5iil3pwqdmtorw37prkvxaw4xql6fxt6gx4lp2diyoa"
 
 node_pool_os = "Oracle Linux"
 
@@ -202,7 +202,7 @@ vpa = {
 # kms
 use_encryption = false
 
-existing_key_id = "ocid1.vault.oc1.eu-amsterdam-1.dbqthhedaafom.abqw2ljr25c2v6i4vnlt2ier7lvymjbqjlce4gag52ktkv22yntjkvubhf3q"
+existing_key_id = "ocid1.vault.oc1.eu-frankfurt-1.b5qthrciaafak.abtheljrtnquy4eecibtk7qqfpfkgvz6jqujtcgnkjlbg7b6hwdzokkf7dva"
 
 # service account
 create_service_account = true
