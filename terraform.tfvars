@@ -1,15 +1,21 @@
 # Identity and access parameters
 
 ##api_fingerprint = "02:b2:8b:04:a3:be:e5:9c:1f:a0:e9:35:a5:08:80:85"
-api_fingerprint=""
+###04092021 api_fingerprint=""
+api_fingerprint="02:b2:8b:04:a3:be:e5:9c:1f:a0:e9:35:a5:08:80:85"
+
 ##api_private_key_path = "modules/apikey_by.pem"
-api_private_key_path=""
+###04092021 api_private_key_path=""
+api_private_key_path="modules/apikey_by.pem"
+
 region = "me-dubai-1"
 
 tenancy_id = "ocid1.tenancy.oc1..aaaaaaaa6h7beozm3dyptslylq6ql2bxsly3vr4vbg62y3jxotr2wur2dbxq"
 
 ## user_id = "ocid1.user.oc1..aaaaaaaazli5anrg56xiirjcn6swtvhjsmezyro52z4xushhkh7x6lstkzna" 
-user_id=""
+###04092021 user_id=""
+user_id="ocid1.user.oc1..aaaaaaaatpvhth753r5ien2yrcju6biludch3bkgz3knuvo7nkfzk5ftgeea"
+
 # general oci parameters
 compartment_id = "ocid1.compartment.oc1..aaaaaaaahht7wjaxbu3oqsnqo2u24ucwui5db6r75z3r6f66eulu6htzfkna"
 
